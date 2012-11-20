@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Web", "BookStore.Web\BookStore.Web.csproj", "{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{90C43A85-5B93-4E0B-BB86-9CC488F32572}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{BAAB23E2-8F3F-4D48-BCAA-8BB02EE66BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{81706E1D-40DF-43DD-AF3C-565C322E78D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1746EE92-EEEE-4087-AE60-57723A61D2EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{8517AF94-21E4-461C-B62B-1A61B2485CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Domain.Entities", "Bookstore.Domain.Entities\Bookstore.Domain.Entities.csproj", "{0A25AB8F-E146-459A-83FE-4A7D6CA3A032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Domain.Interfaces", "Bookstore.Domain.Interfaces\Bookstore.Domain.Interfaces.csproj", "{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Infrastructure.Repositories", "Bookstore.Infrastructure.Repositories\Bookstore.Infrastructure.Repositories.csproj", "{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Infrastructure.Repositories.Tests", "Bookstore.Infrastructure.Repositories.Tests\Bookstore.Infrastructure.Repositories.Tests.csproj", "{1105F598-A768-48B6-9CC8-A7C8486DC3D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A25AB8F-E146-459A-83FE-4A7D6CA3A032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A25AB8F-E146-459A-83FE-4A7D6CA3A032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A25AB8F-E146-459A-83FE-4A7D6CA3A032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A25AB8F-E146-459A-83FE-4A7D6CA3A032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1105F598-A768-48B6-9CC8-A7C8486DC3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1105F598-A768-48B6-9CC8-A7C8486DC3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1105F598-A768-48B6-9CC8-A7C8486DC3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1105F598-A768-48B6-9CC8-A7C8486DC3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F1E8CF2-C520-4894-84B4-7A41C5F3BCE2} = {1746EE92-EEEE-4087-AE60-57723A61D2EB}
+		{0A25AB8F-E146-459A-83FE-4A7D6CA3A032} = {BAAB23E2-8F3F-4D48-BCAA-8BB02EE66BF0}
+		{DDE98DD2-7237-4B5B-8192-88F1C7D2AD92} = {BAAB23E2-8F3F-4D48-BCAA-8BB02EE66BF0}
+		{3CAEFF52-6E0F-4DCF-A5A3-EDE52F55A7ED} = {81706E1D-40DF-43DD-AF3C-565C322E78D0}
+		{1105F598-A768-48B6-9CC8-A7C8486DC3D9} = {81706E1D-40DF-43DD-AF3C-565C322E78D0}
+	EndGlobalSection
+EndGlobal
